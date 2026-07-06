@@ -67,7 +67,32 @@ header{
     text-align:center;
     padding:70px 20px;
 }
+.foto-container {
+  position: relative;
+  display: inline-block;
+}
 
+.foto {
+  width: 300px;
+}
+
+.sombrero {
+  position: absolute;
+  width: 120px;
+  top: -35px;      /* Súbelo o bájalo */
+  left: 50%;
+  transform: translateX(-50%);
+  animation: flotar 2s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+}
 header h1{
     color:#FFD700;
     font-size:2.5rem;
