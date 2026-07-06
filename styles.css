@@ -142,30 +142,7 @@ section h2{
     font-weight:bold;
 }
 
-.imagenes{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
 
-.imagenes img{
-    width:100%;
-    border-radius:15px;
-    transition:.4s;
-    cursor:pointer;
-}
-
-.imagenes img:hover{
-    transform:scale(1.05);
-}
-.galeria img{
-    width:100%;
-    max-width:400px;
-    display:block;
-    margin:auto;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,.4);
-}
 
 .mensaje p{
     text-align:center;
