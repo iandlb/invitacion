@@ -6,7 +6,7 @@
 }
 
 body{
-    background:linear-gradient(180deg,#0b1e3d,#132d5c,#1c4d8c);
+    background:linear-gradient(180deg,#000000,#000000,#000000);
     color:white;
     overflow-x:hidden;
 }
@@ -113,7 +113,7 @@ section{
     max-width:900px;
     margin:40px auto;
     padding:30px;
-    background:rgba(255,255,255,.08);
+    background:rgba(0,0,0,.08);
     border-radius:20px;
     backdrop-filter:blur(10px);
     box-shadow:0 10px 30px rgba(0,0,0,.3);
